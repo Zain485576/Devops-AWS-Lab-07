@@ -9,7 +9,7 @@ Muhammad Zain Tahir · `l233078@lhr.nu.edu.pk` · Region `ap-south-1`
 ## Screenshots
 ### EC2 instance (`cv-ec2-23l-3078`)
 
-![EC2 instance in console](images/ec2.png)
+![EC2 instance in console](images/ec2.jpg)
 
 ### CV served from EC2 (Path A)
 
@@ -17,7 +17,7 @@ Muhammad Zain Tahir · `l233078@lhr.nu.edu.pk` · Region `ap-south-1`
 
 ### Lambda function (`cv-func-23l-3078`)
 
-![Lambda function in console](images/lambda_app.png)
+![Lambda function in console](images/lambda_app.jpg)
 
 ### Private S3 bucket (`cv-23l-3078`)
 
@@ -25,7 +25,7 @@ Muhammad Zain Tahir · `l233078@lhr.nu.edu.pk` · Region `ap-south-1`
 
 ### Direct S3 URL - Access Denied (C6)
 
-![S3 Access Denied in browser](images/s3_acess_denied.png)
+![S3 Access Denied in browser](images/s3_acess_denied.jpg)
 
 ## Resource names
 
@@ -61,10 +61,4 @@ After apply, wait ~2 minutes for user data, then:
 
 5. **Delete the EC2 instance.** You lose Path A (the HTTP site and sync log on that host). You still have the S3 objects, IAM roles, Lambda path, and can launch a new instance that syncs the same bucket.
 
-## Clean-up (after marking)
 
-```bash
-cd terraform && terraform destroy
-```
-
-Also confirm the log group, roles, bucket versions, and security group are gone in `ap-south-1`.
