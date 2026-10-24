@@ -7,10 +7,6 @@ Muhammad Zain Tahir · `l233078@lhr.nu.edu.pk` · Region `ap-south-1`
 - Lambda: https://fs3jr7wllc5qz7udaozxm34twe0kocnh.lambda-url.ap-south-1.on.aws/
 
 ## Screenshots
-### EC2 instance (`cv-ec2-23l-3078`)
-
-![EC2 instance in console](images/ec2.jpg)
-
 ### CV served from EC2 (Path A)
 
 ![CV page on EC2](images/server_app.png)
