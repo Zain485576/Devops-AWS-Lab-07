@@ -1,0 +1,6 @@
+*.pem
+.idea/
+.vscode/
+__pycache__/
+.curl_body_tmp
+
